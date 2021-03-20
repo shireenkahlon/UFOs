@@ -5,7 +5,7 @@ This project uses JavaScript to create a table containing UFO information. This 
 The purpose of this assignment is to aid my client, Dana, in creating a website on UFOs using the data Dana received in a JavaScript file. Dana will use this website to publish her article she wrote as a journalist, as well as the data she received. The website will give users a look at the UFO sightings between January 1st, 2010 and January 13th, 2010; the sightings are across the USA  — from Round Rock, Texas to Eugene, Oregon. The website has the ability to filter through data to pinpoint a city, state, country, shape of the UFO, and date a siting occurred. The website was created by using Bootstrap in HTML; the filtering of the data was created using JavaScript.
 
 ## Results
-On the front end of the website, a search consists of typing in a search filter into the input boxes on the website as shown in the images below. After searching, the user must click enter and the results will pop up. For text filters, the input must be lowercase. For date filters, the input must be in m/d(d)/yyyy format.
+On the front end of the website, a search consists of typing in a search filter into the input boxes on the website as shown in the images below. After searching, the user must click enter and the results will pop up. For text filters, the input must be lowercase. For date filters, the input must be in m/(d)d/yyyy format.
 
 The following image shows the table data on the website with no filters applied
 ![ufo_table_data](https://github.com/shireenkahlon/UFOs/blob/main/ufo_table_filter.png)
