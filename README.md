@@ -11,10 +11,12 @@ The following image shows the table data on the website with no filters applied
 ![ufo_table_data](https://github.com/shireenkahlon/UFOs/blob/main/ufo_table_filter.png)
 
 The image below shows the table data on the webpage with a filter applied for "benton"
-![ufo_table_filter](https://github.com/shireenkahlon/UFOs/blob/main/Images/ufo_table_filter.png)
+![ufo_table_filter](https://github.com/shireenkahlon/UFOs/blob/main/ufo_table_filter.png)
 
 On the back end, the functions are set up to take the element, value, and id of each data row. From this, when a user inputs a filter, the JavaScript code will check if there’s a relevant data row to that input. If so, it will iterate through the input, take the key and bring back the value of the data. For example, if someone inputs ‘round rock’ and ‘tx’, the JavaScript will take the key of ‘city’ and ‘state’ and bring back the values in the table. The code below shows how the functions are set up.
 
+The following image shows the code to build the table in JavaScript
+![ufo_table_code](https://github.com/shireenkahlon/UFOs/blob/main/ufo_table_code.png)
 
 
 In the following image, the console is shown. The console will show any value that is set to be logged into the console using console.log(). This will show the key, value pairs that have been filtered.
