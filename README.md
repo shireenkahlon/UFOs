@@ -21,12 +21,15 @@ The image below displays the code to build the table in JavaScript
 The next image shows the code in JavaScript used to update the table to the filter applied
 ![ufo_update_filter_code](https://github.com/shireenkahlon/UFOs/blob/main/ufo_update_filter_code.png)
 
-The following image shows the code in JavaScript to filter through the table to bring back the results of the filter
+The following image shows the code in JavaScript to filter through the table to bring back the results of the filter; this code also shows how JavaScript will "listen" for a change in the input box
 ![ufo_update_filter_table_code](https://github.com/shireenkahlon/UFOs/blob/main/ufo_filter_table_code.png)
 
+The image below shows the HTML code to display the input boxes
+![html_code](https://github.com/shireenkahlon/UFOs/blob/main/ufo_html_code.png)
 
 
 In the following image, the console is shown. The console will show any value that is set to be logged into the console using console.log(). This will show the key, value pairs that have been filtered.
+![ufos_console](https://github.com/shireenkahlon/UFOs/blob/main/ufo_console.png)
 
 ## Summary
 One major drawback to the webpage is the lack of flexibility in typing a filter. For example, typing “Round Rock” (as shown in the image below) brings back nothing, despite there being a sighting in Round Rock, Texas. This applies to all of the filters; typing in ‘TX’, ‘Triangle’, or ’01/01/2010’ for their corresponding filters will show no data. To combat this, a function would be needed to allow for capital letters, spaces, lack of spaces (for example, roundrock), and variation in typing a date.
