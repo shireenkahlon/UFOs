@@ -8,7 +8,7 @@ The purpose of this assignment is to aid my client, Dana, in creating a website 
 On the front end of the website, a search consists of typing in a search filter into the input boxes on the website as shown in the images below. After searching, the user must click enter and the results will pop up. For text filters, the input must be lowercase. For date filters, the input must be in m/d(d)/yyyy format.
 
 The following image shows the table data on the website with no filters applied
-![ufo_table_data](https://github.com/shireenkahlon/UFOs/commit/d000ccc16b5cc81fa0db943fe9d090e9da74b04d)
+![ufo_table_data](https://github.com/shireenkahlon/UFOs/blob/main/ufo_table_filter.png)
 
 The image below shows the table data on the webpage with a filter applied for "benton"
 ![ufo_table_filter](https://github.com/shireenkahlon/UFOs/blob/main/Images/ufo_table_filter.png)
