@@ -7,10 +7,15 @@ The purpose of this assignment is to aid my client, Dana, in creating a website 
 ## Results
 On the front end of the website, a search consists of typing in a search filter into the input boxes on the website as shown in the images below. After searching, the user must click enter and the results will pop up. For text filters, the input must be lowercase. For date filters, the input must be in m/d(d)/yyyy format.
 
-The following image shows the table data with no filters applied
-![ufo_table_data](https://github.com/shireenkahlon/UFOs/blob/main/Images/ufo_table_data.png)
+The following image shows the table data on the website with no filters applied
+![ufo_table_data](https://github.com/shireenkahlon/UFOs/commit/d000ccc16b5cc81fa0db943fe9d090e9da74b04d)
+
+The image below shows the table data on the webpage with a filter applied for "benton"
+![ufo_table_filter](https://github.com/shireenkahlon/UFOs/blob/main/Images/ufo_table_filter.png)
 
 On the back end, the functions are set up to take the element, value, and id of each data row. From this, when a user inputs a filter, the JavaScript code will check if there’s a relevant data row to that input. If so, it will iterate through the input, take the key and bring back the value of the data. For example, if someone inputs ‘round rock’ and ‘tx’, the JavaScript will take the key of ‘city’ and ‘state’ and bring back the values in the table. The code below shows how the functions are set up.
+
+
 
 In the following image, the console is shown. The console will show any value that is set to be logged into the console using console.log(). This will show the key, value pairs that have been filtered.
 
