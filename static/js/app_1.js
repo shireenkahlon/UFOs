@@ -1,11 +1,10 @@
 // import the data from data.js
 const tableData = data;
-  // First, clear out any existing data
 var tbody = d3.select("tbody");
- // First, clear out any existing data 
+ // clear out any existing data 
 function buildTable(data) {
     tbody.html("");
-// Next, loop through each object in the data
+// Loop through each object in the data
 // and append a row and cells for each value in the rowdata.forEach((dataRow) => {
     data.forEach(function(dataRow) {
         let row=tbody.append('tr')
@@ -29,8 +28,6 @@ function handleClick() {
     if (date) {
         filteredData=filteredData.filter(row => row.datetime === date)
     // Rebuild the table using the filtered data
-    // @NOTE: If no date was entered, then filteredData will
-    // just be the original tableData.
     buildTable(filteredData);
     }
 }
